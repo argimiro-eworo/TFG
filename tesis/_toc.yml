@@ -1,4 +1,5 @@
 format: jb-article
 root: docs/index
 sections:
+- file: docs/endtoend
 - file: docs/end2end
