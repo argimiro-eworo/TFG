@@ -1,4 +1,4 @@
-# Creación Automática de contenidos en proyectos de Machine Learning.
+# Creación Automática de contenidos en proyectos de Machine Learning..
 
 El objetivo de este proyecto es explorar la utilización de diferentes tecnologías para autoría de documentos e investigación reproducible en ciencia de 
 datos utilizando de lengua de programación Python.
