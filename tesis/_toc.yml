@@ -3,3 +3,4 @@ root: docs/index
 sections:
 - file: docs/endtoend
 - file: docs/end2end
+- file: docs/Capitulo_altair
