@@ -4,3 +4,4 @@ sections:
 - file: docs/endtoend
 - file: docs/end2end
 - file: docs/Capitulo_altair
+- file: docs/capitulo_geopandas
