@@ -12,6 +12,10 @@ Para eso vamos a ilustrar los siguientes proyectos:
 varios algoritmos de predicción para los precios de viviendas en la costa de california.
 
 - [El Tiempo En Nueva York](https://argimiro-eworo.github.io/TFG/docs/Capitulo_altair.html): Con datos brutos del tiempo en Nueva York y haciendo 
-uso de la herramienta Altair, crearemos una gráfico interactivo que relaciona los meses del año y las temperaturas. 
+uso de la herramienta Altair, crearemos una gráfico interactivo que relaciona los meses del año y las temperaturas.
+
+- [Citi Bike en Nueva York](https://argimiro-eworo.github.io/TFG/docs/capitulo_geopandas.html): Con datos brutos del sistema de intercambio de 
+bicicletas en NY y haciendo uso de la herramienta Geopandas, ilustraremos sobre un  mapa interactivo, la localización de cada estación así como información del
+ńumero de llegadas y salidas de bicis en cada una. 
 
 
