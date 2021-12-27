@@ -11,6 +11,7 @@ Para eso vamos a ilustrar los siguientes proyectos:
 - [End To End Machine Learning](https://argimiro-eworo.github.io/TFG/docs/end2end.html): Analizaremos, con datos proporcionados,
 varios algoritmos de predicción para los precios de viviendas en la costa de california.
 
-- Ejemplo 2: Analizaremos la interactividad con los datos. 
+- [El Tiempo En Nueva York](https://argimiro-eworo.github.io/TFG/docs/Capitulo_altair.html): Con datos brutos del tiempo en Nueva York y haciendo 
+uso de la herramienta Altair, crearemos una gráfico interactivo que relaciona los meses del año y las temperaturas. 
 
 
