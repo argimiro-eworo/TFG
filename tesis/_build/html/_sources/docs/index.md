@@ -16,6 +16,11 @@ uso de la herramienta Altair, crearemos una gráfico interactivo que relaciona l
 
 - [Citi Bike en Nueva York](https://argimiro-eworo.github.io/TFG/docs/capitulo_geopandas.html): Con datos brutos del sistema de intercambio de 
 bicicletas en NY y haciendo uso de la herramienta Geopandas, ilustraremos sobre un  mapa interactivo, la localización de cada estación así como información del
-ńumero de llegadas y salidas de bicis en cada una. 
+ńumero de llegadas y salidas de bicis en cada una.
+
+## Bibliography
+
+```{bibliography} ../_bibliography/references.bib
+``` 
 
 
