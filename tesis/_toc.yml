@@ -1,6 +1,6 @@
 format: jb-article
 root: docs/index
-sections:
+chapters:
 - file: docs/endtoend
 - file: docs/end2end
 - file: docs/Capitulo_altair
