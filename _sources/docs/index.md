@@ -20,7 +20,7 @@ bicicletas en NY y haciendo uso de la herramienta Geopandas, ilustraremos sobre 
 
 ## Bibliography
 
-```{bibliography}
+```{bibliography} ../_bibliography/references.bib
 ``` 
 
 
