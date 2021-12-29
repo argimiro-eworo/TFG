@@ -1,3 +1,16 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
+(index)=
+
 # <center>INTRODUCCIÓN<center/>
 
 El objetivo de este libro electrónico es reunir una serie de ejemplos ilustrativos que demuestren las distintas posibilidades que ofrece la tecnología
@@ -9,16 +22,16 @@ siguiendo los mismos pasos detallados y con los mismos datos y/o distintos, lleg
 Para eso vamos a ilustrar los siguientes proyectos:
 
 - [End To End Machine Learning](https://argimiro-eworo.github.io/TFG/docs/end2end.html): Analizaremos, con datos proporcionados,
-varios algoritmos de predicción para los precios de viviendas en la costa de california.
+varios algoritmos de predicción para los precios de viviendas en la costa de california. Nos vamos a basar en el libro {cite}`geron2019hands`.
 
 - [El Tiempo En Nueva York](https://argimiro-eworo.github.io/TFG/docs/Capitulo_altair.html): Con datos brutos del tiempo en Nueva York y haciendo 
-uso de la herramienta Altair, crearemos una gráfico interactivo que relaciona los meses del año y las temperaturas.
+uso de la herramienta Altair {cite}`vanderplas2018altair`, crearemos una gráfico interactivo que relaciona los meses del año y las temperaturas.
 
 - [Citi Bike en Nueva York](https://argimiro-eworo.github.io/TFG/docs/capitulo_geopandas.html): Con datos brutos del sistema de intercambio de 
-bicicletas en NY y haciendo uso de la herramienta Geopandas, ilustraremos sobre un  mapa interactivo, la localización de cada estación así como información del
+bicicletas en NY y haciendo uso de la herramienta Geopandas {cite}`jordahl2014geopandas`, ilustraremos sobre un  mapa interactivo, la localización de cada estación así como información del
 ńumero de llegadas y salidas de bicis en cada una.
 
-## Bibliography
+## Bibliografía
 
 ```{bibliography} ../_bibliography/references.bib
 ``` 

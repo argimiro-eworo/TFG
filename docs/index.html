@@ -141,7 +141,10 @@
 
     <div class="dropdown-buttons">
         <!-- ipynb file if we had a myst markdown file -->
-        
+        <a class="dropdown-buttons"
+            href="../_sources/docs/index.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Descargar archivo de cuaderno" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
         <!-- Download raw file -->
         <a class="dropdown-buttons" href="../_sources/docs/index.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Descargar archivo fuente" data-toggle="tooltip"
@@ -163,6 +166,23 @@
 
             <!-- Launch buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/argimiro-eworo/TFG/master?urlpath=tree/tesis/docs/index.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Lanzamiento Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
         </div>
 
         <!-- Table of contents -->
@@ -174,8 +194,8 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#bibliography">
-   Bibliography
+  <a class="reference internal nav-link" href="#bibliografia">
+   Bibliografía
   </a>
  </li>
 </ul>
@@ -190,7 +210,7 @@
               <div>
                 
   <div class="section" id="center-introduccion-center">
-<h1><center>INTRODUCCIÓN<center/><a class="headerlink" href="#center-introduccion-center" title="Permalink to this headline">¶</a></h1>
+<span id="index"></span><h1><center>INTRODUCCIÓN<center/><a class="headerlink" href="#center-introduccion-center" title="Permalink to this headline">¶</a></h1>
 <p>El objetivo de este libro electrónico es reunir una serie de ejemplos ilustrativos que demuestren las distintas posibilidades que ofrece la tecnología
 jupyter y jupyter books para publicación de contenidos de proyectos de ciencias de datos y/o machine learning.</p>
 <p>Dichos ejemplos están basados en la reproducibilidad científica. La reproducibilidad es la característica de un proyecto de poder ser recreado,
@@ -198,16 +218,28 @@ siguiendo los mismos pasos detallados y con los mismos datos y/o distintos, lleg
 <p>Para eso vamos a ilustrar los siguientes proyectos:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://argimiro-eworo.github.io/TFG/docs/end2end.html">End To End Machine Learning</a>: Analizaremos, con datos proporcionados,
-varios algoritmos de predicción para los precios de viviendas en la costa de california.</p></li>
+varios algoritmos de predicción para los precios de viviendas en la costa de california. Nos vamos a basar en el libro <span id="id1">[<a class="reference internal" href="#id5">Geron19</a>]</span>.</p></li>
 <li><p><a class="reference external" href="https://argimiro-eworo.github.io/TFG/docs/Capitulo_altair.html">El Tiempo En Nueva York</a>: Con datos brutos del tiempo en Nueva York y haciendo
-uso de la herramienta Altair, crearemos una gráfico interactivo que relaciona los meses del año y las temperaturas.</p></li>
+uso de la herramienta Altair <span id="id2">[<a class="reference internal" href="#id6">VGH+18</a>]</span>, crearemos una gráfico interactivo que relaciona los meses del año y las temperaturas.</p></li>
 <li><p><a class="reference external" href="https://argimiro-eworo.github.io/TFG/docs/capitulo_geopandas.html">Citi Bike en Nueva York</a>: Con datos brutos del sistema de intercambio de
-bicicletas en NY y haciendo uso de la herramienta Geopandas, ilustraremos sobre un  mapa interactivo, la localización de cada estación así como información del
+bicicletas en NY y haciendo uso de la herramienta Geopandas <span id="id3">[<a class="reference internal" href="#id7">Jor14</a>]</span>, ilustraremos sobre un  mapa interactivo, la localización de cada estación así como información del
 ńumero de llegadas y salidas de bicis en cada una.</p></li>
 </ul>
-<div class="section" id="bibliography">
-<h2>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this headline">¶</a></h2>
-<span class="target" id="id1"></span></div>
+<div class="section" id="bibliografia">
+<h2>Bibliografía<a class="headerlink" href="#bibliografia" title="Permalink to this headline">¶</a></h2>
+<p id="id4"><dl class="citation">
+<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id1">Geron19</a></span></dt>
+<dd><p>Aurélien Géron. <em>Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow: Concepts, tools, and techniques to build intelligent systems</em>. O'Reilly Media, 2019.</p>
+</dd>
+<dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id3">Jor14</a></span></dt>
+<dd><p>K Jordahl. Geopandas: python tools for geographic data. <em>URL: https://github. com/geopandas/geopandas</em>, 2014.</p>
+</dd>
+<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id2">VGH+18</a></span></dt>
+<dd><p>Jacob VanderPlas, Brian E Granger, Jeffrey Heer, Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Eitan Lees, Ilia Timofeev, Ben Welsh, and Scott Sievert. Altair: interactive statistical visualizations for python. <em>Journal of open source software</em>, 3(32):1057, 2018.</p>
+</dd>
+</dl>
+</p>
+</div>
 <div class="toctree-wrapper compound">
 </div>
 </div>
