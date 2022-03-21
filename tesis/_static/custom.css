@@ -1,7 +1,23 @@
 body {
-  background-color: #482C38;
+  background: linear-gradient(#E38339, #9198e5);
+  
 }
 
 p {
-	color: #AEA0C7;
+	font-family: 'Courier New', monospace;
+	
+}
+
+h1{
+  font-weight:bold;
+  color: white !important;
+}
+
+h2{
+  font-weight:bold;
+  color: white !important;
+}
+
+img {
+  border-radius: 10%;
 }
