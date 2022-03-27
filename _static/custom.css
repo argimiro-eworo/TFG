@@ -4,20 +4,38 @@ body {
 }
 
 p {
-	font-family: 'Courier New', monospace;
-	
+	font-family: 'Courier New', monospace;	
 }
 
 h1{
   font-weight:bold;
   color: white !important;
+  font-family: "Liberation Serif";
 }
 
 h2{
   font-weight:bold;
   color: white !important;
+  font-family: "Liberation Serif"
 }
 
 img {
   border-radius: 10%;
 }
+
+#site-navigation {
+	font-weight:bold;
+	background-color:black;
+}
+
+.bd-toc {
+	font-weight:bold;
+	background-color:black;
+}
+
+.bd-toc.show nav {
+	font-weight:bold;
+	background-color:black;
+}
+
+
