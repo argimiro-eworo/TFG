@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(#E38339, #9198e5);
+  /*background: linear-gradient(#E38339, #9198e5);*/
+  background: linear-gradient(to right, #DECBA4, #3E5151);
   
 }
 
@@ -26,6 +27,7 @@ img {
 #site-navigation {
 	font-weight:bold;
 	background-color:black;
+	background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 
 .bd-toc {
