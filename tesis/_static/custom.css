@@ -1,11 +1,12 @@
 body {
-  /*background: linear-gradient(#E38339, #9198e5);*/
-  background: linear-gradient(to right, #DECBA4, #3E5151);
+  /*background: linear-gradient(to right, #DECBA4, #3E5151);*/
+  background: linear-gradient(to right, #3B4747, #1D2626);
   
 }
 
 p {
-	font-family: 'Courier New', monospace;	
+	font-family: 'Courier New', monospace;
+	color: white;	
 }
 
 h1{
@@ -26,7 +27,6 @@ img {
 
 #site-navigation {
 	font-weight:bold;
-	background-color:black;
 	background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 
