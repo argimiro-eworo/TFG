@@ -157,7 +157,7 @@ alt.Chart(data).mark_point().encode(
 alt.Chart(data).mark_bar().encode(
     x='count()',
     y='month:N',
-    color=alt.Color('month:N', scale=scale),
+    color=alt.Color('month', scale=scale),
 )
 
 
@@ -171,7 +171,7 @@ brush = alt.selection(type='interval')
 points = alt.Chart().mark_point().encode(
     alt.X('max_temperature:Q', title='Maximum Daily Temperature (F)'),
     alt.Y('temp_range:Q', title='Daily Temperature Range (F)'),
-    color=alt.condition(brush, 'month:N', alt.value('lightgray'), scale=scale),
+    color=alt.condition(brush, 'month', alt.value('lightgray'), scale=scale),
     size=alt.Size('precipitation:Q', scale=alt.Scale(range=[1, 200]))
 ).transform_calculate(
     "temp_range", "datum.max_temperature - datum.min_temperature"
@@ -185,7 +185,7 @@ points = alt.Chart().mark_point().encode(
 bars = alt.Chart().mark_bar().encode(
     x='count()',
     y='month:N',
-    color=alt.Color('month:N', scale=scale),
+    color=alt.Color('month', scale=scale),
 ).transform_calculate(
     "temp_range", "datum.max_temperature - datum.min_temperature"
 ).transform_filter(
